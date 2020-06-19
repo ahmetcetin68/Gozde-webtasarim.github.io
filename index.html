@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Gözde Girişim</title>
+	<link rel="stylesheet" type="text/css" href="stil.css">
+	<script type="text/javascript" src="java.js" language="javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+            $("#ac").click(function () {
+                $(".yardim-one").toggleClass("kapa");
+            });
+        });
+</script>
+</head>	
+<body>
+	<div class="sablon">
+		<div class="logo">
+			<img src="img/logo.png" width="140" height="100">
+		</div>
+		
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Anasayfa</a></li>
+				<li><a href="hakkımızda.html">Hakkımızda</a></li>
+				<li><a href="portföy.html">Yatırım Portföyü</a></li>
+        <li><a href="iliski.html">Yatırımcı İlişkileri</a></li>
+				<li><a href="iletisim.html">İletişim</a></li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+    <div class="clear"></div>
+    <div class="slaydır">
+		<div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img/slaydır1.jpg" style="width:100%">
+  
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img/slaydır2.jpg" style="width:100%">
+  
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img/slaydır3.jpg"style="width:100%; height: 300px;">
+  
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img/slaydır4.jpg" style="width:100%;height: 300px;">
+  
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img/slaydır5.jpg" style="width:100%;height: 300px;">
+  
+</div>
+</div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+
+
+</div>
+      
+
+	
+		<div class="footer">
+    <img src="img/YH.png"> 
+    <p> Gözde Girişim Sermayesi Yatırım Ortaklığı A.Ş. © 2020  </p> 
+    <img src="img/imgNeoLogo.png" style="float: right;width: 70px;height: 15px;margin-top: -20px;">
+    </div>
+	</div>
+
+<script type="text/javascript">
+	var slideIndex = 0;
+showSlides();
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); 
+}
+
+</script>
+<div class="yardim" id="ac">
+        Canlı Destek
+        
+      </div>
+      <div class="yardim-one">
+        <textarea rows="10" cols="25"></textarea>
+        <input type="submit" name="gönder"><br>
+        
+      	
+      </div>
+</body>
+</html>

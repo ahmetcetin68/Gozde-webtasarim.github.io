@@ -1,0 +1,244 @@
+
+.sablon{
+	width: 740px;
+	height: auto;
+	margin: 0 auto;
+
+
+}
+.logo{
+	width: 140px;
+	height: 100px;
+	margin-top: -17px;
+	float: left;
+	position: fixed;
+	top: 0;
+}
+
+.menu{
+	width: 600px;
+	height: 47px;
+	float: left;
+	margin: 20px 0 0 140px;
+	background: #630910;
+
+	position: fixed;
+	top: 0;
+	
+}
+.sosyal{
+	width: 150px;
+	height: 47px;
+	float: left;
+	margin: 10px 0 0 10px;
+}
+
+.footer{
+	width: 740px;
+	height: 60px;
+	float: left;
+	margin: 10px 0 0 0;
+	background: #7c7c7c;
+	border-radius: 10px;
+}
+.footer img{
+	margin-left: 5px;
+	margin-top: 20px;
+	float: left;
+	width: 200px;
+}
+.footer p{
+	text-align: center;
+	font-size:10px;
+	margin-top: 23px;
+	margin-right:160px; 
+}
+.hakkimizda{
+	width: 740px;
+	height: auto;
+	margin-top:  97px;
+}
+.hakkimizda h1{
+	color: #9e1a1a;
+	font-size: 18px;
+}
+.orta{
+	width: 740px;
+	height: auto;
+}
+.ortaüst{
+	width: 740px;
+
+}
+.ortaüst img{
+	width: 740px;
+	margin-top: 75px;
+}
+.ortaüst h1{
+	color: #9e1a1a;
+	font-size: 18px;
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+.menu ul li
+{
+	float: left;
+}
+.menu ul li a
+{
+	display: block;
+	width: 119.5px;
+	height: 32px;
+	padding: 14px 0 0 0;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+
+}
+.menu ul li a:hover{
+	background: #fff;
+	color: #630910;
+	border: 1px solid #630910;
+}
+ {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+.slideshow-container {
+	margin-top: 47px;
+  max-width: 1000px;
+  
+  position: relative;
+  margin: auto;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  
+}
+
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 690px) {
+  .text {font-size: 11px}
+  .logo{
+	width: 50px;
+	height: 100px;
+	margin-top: -17px;
+	float: left;
+	position: fixed;
+	top: 0;
+}
+
+.menu{
+	width: 300px;
+	height: 47px;
+	float: left;
+	margin: 20px 0 0 140px;
+	background: #630910;
+
+	position: fixed;
+	top: 0;
+	
+}
+.menu ul li a
+{
+	display: block;
+	width: 60px;
+	height: 32px;
+	padding: 14px 0 0 0;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font-size: 10px;
+
+}
+
+.sablon{
+	width: 340px;
+	height: auto;
+	margin: 0 auto;
+
+
+}
+}
+
+.clear{
+	clear: both;
+}
+.slaydır{
+	width: 740px;
+	margin-top: 80px;
+}
+.iletisim_formu{
+	width: 100%;
+	height: auto;
+	margin-top: 100px;
+	float: left;
+
+}
+.iletisim_bilgileri{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin: 100px 0 0 60px;
+
+}
+.yardim{
+	width: 200px;
+height: 20px;
+background-color: #743e32;
+position: fixed;
+bottom: 0px;
+right: 5px;
+z-index: 10;
+}
+.yardim-one{
+		width: 200px;
+height: 250px;
+background-color: #205a5e;
+position: fixed;
+bottom: -250px;
+right: 5px;
+transition: all  .6s;
+z-index: 9;
+}
+.kapa{
+	bottom: 0 !important;
+	transition: all  .6s;
+}
